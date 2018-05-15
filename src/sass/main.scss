@@ -1,0 +1,76 @@
+@import "https://fonts.googleapis.com/css?family=Comfortaa:300,400|Muli:300,400,700";
+@import "https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css";
+@import "_variables";
+@import "_global";
+@import "_flex";
+
+.hero {
+  width: 100%;
+  height: 300px;
+  background-image: url("https://images.unsplash.com/photo-1490213739287-16ad3f975ebb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ab74f77d45e674439751be9ccf4821d8&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+}
+
+nav {
+  background: $liteBlue;
+  padding: 20px 0;
+  color: $white;
+  font-size: 1.23em;
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+  padding-left: 20px;
+  font-weight: 100;
+  font-family: $fancy;
+}
+
+  .menu {
+    padding-right: 20px;
+
+    li {
+      position: relative;
+      display: inline-block;
+      padding: 0 20px;
+
+      ul {
+        right: 0;
+        left: 0;
+        position: absolute;
+
+        li {
+          text-align: center;
+          padding: 15px 0;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+section {
+  margin: 2em auto;
+}
+
+.welcome {
+  margin-top: 40px;
+
+  .title {
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 1.05em;
+    color: $liteBlue;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  .desc {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.2em;
+    padding-top: 30px;
+  }
+}

@@ -1,0 +1,167 @@
+@import "https://fonts.googleapis.com/css?family=Comfortaa:300,400|Muli:300,400,700";
+@import "https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+body {
+  font-family: "Muli", sans-serif; }
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px; }
+
+.mini-text {
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 20px; }
+
+.giant-text {
+  font-weight: 100;
+  font-size: 1.75em;
+  text-transform: uppercase;
+  margin-bottom: 20px; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .row .col-1 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-2 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-3 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-4 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-5 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-6 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-7 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-8 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-9 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-10 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-11 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-12 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+
+@media screen and (min-width: 672px) {
+  .row .col-1 {
+    width: calc(8.3333% - 1rem); }
+  .row .col-2 {
+    width: calc(16.6666% - 1rem); }
+  .row .col-3 {
+    width: calc(25% - 1rem); }
+  .row .col-4 {
+    width: calc(33.3333% - 1rem); }
+  .row .col-5 {
+    width: calc(41.6666% - 1rem); }
+  .row .col-6 {
+    width: calc(50% - 1rem); }
+  .row .col-7 {
+    width: calc(58.3333% - 1rem); }
+  .row .col-8 {
+    width: calc(66.6666% - 1rem); }
+  .row .col-9 {
+    width: calc(75% - 1rem); }
+  .row .col-10 {
+    width: calc(83.3333% - 1rem); }
+  .row .col-11 {
+    width: calc(91.6666% - 1rem); }
+  .row .col-12 {
+    width: calc(100% - 1rem); } }
+
+.hero {
+  width: 100%;
+  height: 300px;
+  background-image: url("https://images.unsplash.com/photo-1490213739287-16ad3f975ebb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ab74f77d45e674439751be9ccf4821d8&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover; }
+
+nav {
+  background: #33CCCC;
+  padding: 20px 0;
+  color: #ECF0F1;
+  font-size: 1.23em;
+  display: flex;
+  justify-content: space-between; }
+  nav .logo {
+    padding-left: 20px;
+    font-weight: 100;
+    font-family: "Comfortaa", cursive; }
+  nav .menu {
+    padding-right: 20px; }
+    nav .menu li {
+      position: relative;
+      display: inline-block;
+      padding: 0 20px; }
+      nav .menu li ul {
+        right: 0;
+        left: 0;
+        position: absolute; }
+        nav .menu li ul li {
+          text-align: center;
+          padding: 15px 0;
+          display: block; }
+
+section {
+  margin: 2em auto; }
+
+.welcome {
+  margin-top: 40px; }
+  .welcome .title {
+    text-align: center; }
+  .welcome .subtitle {
+    font-size: 1.05em;
+    color: #33CCCC;
+    text-transform: capitalize;
+    text-align: center; }
+  .welcome .desc {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.2em;
+    padding-top: 30px; }

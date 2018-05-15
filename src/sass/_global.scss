@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+body {
+    font-family: $regular;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+
+.mini-text {
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.giant-text {
+    font-weight: 100;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
